@@ -1,0 +1,146 @@
+.main {
+    background: rgb(3, 32, 51);
+    background: linear-gradient(132deg, rgba(3, 32, 51, 1) 17%, rgba(14, 47, 70, 1) 73%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    width: 260px;
+    height: 250px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.488);
+    border-radius: 23px;
+    background-color: #092436;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box img {
+    border-radius: 100%;
+    height: 100px;
+    position: relative;
+    top: -3rem;
+    left: 5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+}
+
+.text {
+    position: relative;
+    top: 45px;
+    right: 3rem;
+}
+
+.user_name {
+    font-size: large;
+    font-weight: 800;
+    position: inherit;
+    top: 5px;
+}
+
+.skill {
+    position: inherit;
+    bottom: 5px;
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.877);
+}
+
+.arr_container i {
+    color: rgb(70, 70, 70);
+    position: inherit;
+    right: 22px;
+    bottom: 16px;
+    font-size: large;
+    transform: rotate(-45deg);
+}
+
+.arr_container,
+.cancel {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 23px 0 23px 0;
+    transition-duration: .3s;
+}
+
+.cancel i {
+    color: rgb(70, 70, 70);
+    position: inherit;
+    right: 20px;
+    bottom: 16px;
+    font-size: larger;
+}
+
+.arr_container:hover {
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+.active_arr {
+    transform: translate(80%, 80%);
+}
+
+.left_container {
+    position: absolute;
+    background: #001722;
+    width: 250px;
+    height: 210px;
+    border-radius: 23px;
+    padding: 40px 0 0 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.488);
+    transition: all .4s;
+}
+
+.left_container p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.left_container .skills div {
+    display: inline;
+    color: rgb(155, 155, 155);
+    border: 1px solid rgb(155, 155, 155);
+    padding: 5px 10px;
+    font-size: .9rem;
+    margin: 4px 4px 4px 0;
+    cursor: pointer;
+}
+
+.left_container .icons {
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+.left_container .icons a {
+    color: #cfcfcf;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all .4s;
+    text-decoration: none;
+}
+
+.left_container .icons a:hover {
+    color: #2c5364;
+}
+
+.off {
+    transform: translate(-80%, -86%) rotate(90deg);
+}
+
+.active {
+    transform: translate(0px) rotate(0px);
+}
