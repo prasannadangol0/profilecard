@@ -78,6 +78,10 @@
     transition-duration: .3s;
 }
 
+.cancel:hover {
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
 .cancel i {
     color: rgb(70, 70, 70);
     position: inherit;
@@ -118,6 +122,11 @@
     font-size: .9rem;
     margin: 4px 4px 4px 0;
     cursor: pointer;
+}
+
+.left_container .skills div:hover {
+    color: rgb(33, 175, 128);
+    border: 1px solid rgb(23, 90, 128);
 }
 
 .left_container .icons {
